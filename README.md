@@ -28,7 +28,7 @@
     2. [Advanced Social Data Science 2 Contribution](#asds2cont) 
     3. [Quality Criteria](#quality)
 8. [Discussion & Conclusion](#conclusion)
-
+9. [References](#ref)
 ## Introduction <a name="introduction"></a>
 
 Inter-party divide in the Democratic party are usually based on ideological differences (Vargas, 2018). This ideological fracture is characterised by the moderate and progressive wing of the party. Although sharing the same goals, the moderate Democrats tend to favour slow, incremental change, whereas the progressive Democrats distinguish themselves as activists advocating for populist policies such as Medicare For All (Vargas, 2018). The conflict between the two wings of the Democratic party was highlighted by The Green New Deal solution proposed by Alexandria Ocasio-Cortez and Senator Markey (Vargas, 2018). The Green New Deal is the first comprehensive proposal to combine climate change mitigation and the elimination of economic inequality (Galvin & Healy, 2020). The majority of progressive Democrats, such as Bernie Sanders, support and have signed the Green New Deal proposal, whereas some moderates, such as Diane Feinstein, were more critical of it (King, 2021). This inter-party difference in how Democrats tackle and approach climate change is what this paper wishes to explore further. We want to explore how the progressive and moderate Democrats frame and approach climate change and sustainability on social media, focusing on Twitter, Facebook and their official websites.
@@ -123,3 +123,5 @@ This is a sub paragraph, formatted in heading 3 style
 
 ## Discussion & Conclusion <a name="conclusion"></a>
 The second paragraph text
+
+## References <a name="ref"></a>
