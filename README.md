@@ -1,7 +1,7 @@
 # Climate Change and Sustainability Communication in the U.S. Democratic Party
 
 # Table of contents
-1. [Introduction](#introduction)
+1. [Introduction](#introduction) (exam.nr: 2)
 2. [Netnography](#netnography)
     1. [Methodology](#methodology)
     2. [Analysis](#analysis) 
