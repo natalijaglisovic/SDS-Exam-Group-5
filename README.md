@@ -28,7 +28,6 @@
     2. [Advanced Social Data Science 2 Contribution](#asds2cont) 
     3. [Quality Criteria](#quality)
 8. [Discussion & Conclusion](#conclusion)
-9. [References](#ref)
 
 ## Introduction <a name="introduction"></a>
 
@@ -47,6 +46,8 @@ Our research design will include netnographic work, network analyses, and a cont
 
 ## Netnography <a name="netnography"></a>
 Netnography
+
+![Alt text](natalijaglisovic/SDS-Exam-Group-5/blob/main/images/table1.PNGraw=true "Optional Title")
 
 ### Methodology <a name="methodology"></a>
 This is a sub paragraph, formatted in heading 3 style
@@ -122,5 +123,3 @@ This is a sub paragraph, formatted in heading 3 style
 
 ## Discussion & Conclusion <a name="conclusion"></a>
 The second paragraph text
-
-## References <a name="ref"></a>
