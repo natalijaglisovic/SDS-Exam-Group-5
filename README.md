@@ -28,6 +28,7 @@
     2. [Advanced Social Data Science 2 Contribution](#asds2cont) 
     3. [Quality Criteria](#quality)
 8. [Discussion & Conclusion](#conclusion)
+9. [References](#ref)
 
 ## Introduction <a name="introduction"></a>
 
@@ -121,3 +122,5 @@ This is a sub paragraph, formatted in heading 3 style
 
 ## Discussion & Conclusion <a name="conclusion"></a>
 The second paragraph text
+
+## References <a name="ref"></a>
