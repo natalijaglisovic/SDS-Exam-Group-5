@@ -47,7 +47,7 @@ Our research design will include netnographic work, network analyses, and a cont
 ## Netnography <a name="netnography"></a>
 Netnography
 
-![Alt text](natalijaglisovic/SDS-Exam-Group-5/blob/main/images/table1.PNGraw=true "Optional Title")
+![Alt text](natalijaglisovic/SDS-Exam-Group-5/blob/main/images/table1.PNG)
 
 ### Methodology <a name="methodology"></a>
 This is a sub paragraph, formatted in heading 3 style
