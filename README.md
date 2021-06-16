@@ -9,9 +9,6 @@
 3. [Advanced social data science 2](#asds2)
     1. [Motivation](#motivation)
     2. [Applied Methods](#appmethods)
-      1. [Computer-assisted classifier of climate tweets](#classifier)
-      2. [hSBM topic modelling](#hsbm)
-      3. [Part of speech tagging (POS-T)](#pos)
     3. [Discussion of preprocessing and analytical choices](#disasds)
     4. [Results](#resultsasds)
     5. [Conclusion](#conasds)
@@ -77,8 +74,6 @@ When discussing climate change and sustainability on social media, moderate Demo
 ### Limitations and further research <a name="limitations"></a>
 Two main limitations characterise our netnography. First, our analysis of the two wings implies homogeneity within groups, meaning that the progressives think alike and the moderates think alike. While our grappling with the data hints that members within groups post similarly, we concur that this may not be the case. After all, our netnography investigates the social media of 20 politicians, a fraction of the larger sample. Future research should expand this sample size or randomly select members of each coalition to analyse, which would possibly afford more diversity in viewpoints. Second, aside from the initial organisation of our data collection strategy, we lacked a systematic approach to collecting tweets and Facebook posts when exploring the data site, which can be seen by the incongruent dates of the posts we recorded. Since we did not demarcate a timeframe to guide our examination of the site, we recorded posts written in 2019, 2020, and 2021, without consideration of how time may influence climate change and sustainability rhetoric. However, we note that content written across all three years share similar themes, which means this limitation might not have harmed our study's analytic potential. Future research should demarcate a timeframe to examine how the political climate at a given time in history potentially influences climate change rhetoric.
 
-(Add Table 1: Examples of immersion journal codes and pattern codes for moderates and progressives)
-
 ## Advanced Social Data Science 2 <a name="asds2"></a>
 ASDS2
 
@@ -87,15 +82,6 @@ This is a sub paragraph, formatted in heading 3 style
 
 ### Applied methods <a name="appmethods"></a>
 This is a sub paragraph, formatted in heading 3 style
-
-#### Computer-Assisted classifier of climate tweets <a name="classifier"></a>
-This is a sub-sub paragraph, formatted in heading 3 style
-
-#### hSBM topic modelling <a name="hsbm"></a>
-This is a sub-sub paragraph, formatted in heading 3 style
-
-#### Part of speech tagging (POST-T) <a name="pos"></a>
-This is a sub-sub paragraph, formatted in heading 3 style
 
 ## Discussion of preprocessing and analytical choices <a name="disasds"></a>
 The second paragraph text
