@@ -13,7 +13,7 @@
     4. [Results](#resultsasds) (exam.nr: 19)
     5. [Conclusion](#conasds) (exam.nr: 2)
     6. [Discussion of alternative methods](#altmethodsasds) (exam.nr: 30)
-5. [Manual & automated networks (Back to Digital Methods)](#networks) (exam.nr: 2)
+5. [Manual & automated networks (Back to Digital Methods)](#networks) (exam.nr: 8)
     1. [Manual network](#manual) (exam.nr: 32)
     2. [Automated network](#automated)  (exam.nr: 30)
 6. [Content analysis](#content) 
