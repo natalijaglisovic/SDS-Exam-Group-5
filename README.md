@@ -148,16 +148,35 @@ The data in our immersion journal provides us the opportunity to approach our re
 
 ### Manual network <a name="manual"></a>
 <em>Method</em>
+
 The data we collected in the immersion journal, including tweets and Facebook posts, served as the data used for the manual network. We decided to incorporate both platforms into the manual network analysis as we thought it important to broaden our network to include more than one context in hopes of understanding interdependencies between platforms (Lai et al., 2019). While coding themes for the netnography, we noted when the politicians discussed, mentioned, retweeted, or tagged other actors, as well as the name of the referred-to actor and the platform on which the interaction took place. While we only included actors within the coalitions for our automated network analysis, we wanted our manual analysis to expand this network by incorporating all actors the politicians referred to in their climate-related posts. This inclusion demonstrates our commitment to the type of "thickness" Decuypere (2020) argues is important for relational research, a property that demands an examination of a variety of actors. We then used Miro, a whiteboard application, to help visualise the relationships we recorded in the immersional journal, creating two networks, one for the progressives and another for the moderates. Further elaboration on sampling, data collection strategy, and other methodological choices can be found in (see netnography).
 
 <em>Analysis</em>
+
 Decuypere (2020) outlines a series of dimensions researchers may use when analysing networks, some of which we shall employ in our analyses. Many regions of the network belonging to the progressives are relatively dense, meaning that actors are highly interconnected in the network. This implies that to mobilise conversation related to climate change and environmental sustainability on social media, progressives often refer to each other and other actors. Connecting to the netnographic analysis, this pattern has parallels with the principle of intersectionality, as it appears that progressives shine light on many people from diverse backgrounds. An interesting element of the moderate network is that Presidents Donald Trump and Joe Biden act as prominent centers of the network, with many moderates linking to both actors. This means that the presidents hold positions of authority in the network (ibid.), potentially playing large roles in how moderates discuss climate change and environmental sustainability on the two platforms.
 
 FIG 4: MANUAL NETWORK HERE
 
+<em>Limitations</em>
+
 
 ### Automated network <a name="automated"></a>
-This is a sub paragraph, formatted in heading 3 style
+<em>Method</em>
+
+The automated visual network analysis was conducted on the mentions among Democrats in the data regarding environmental sustainability. We did this by training a computer-assisted classifier for keyword suggestions (King et al., 2017), with reference to keywords we found in our immersion journal, as defined in (see ASDS2). The dataset was 11,655 tweets in total. Before gathering the climate tweet sample, we pre-processed the tweets by lowercasing all text to prevent distinguishing words due to capitalisations, as well as removing punctuation and separators. We then removed domain-specific terms: "RT," "via," "@mentions," and URLs. These are removed from the text-corpus in order to isolate the actual text in the tweets. Furthermore, we removed stop-words as they convey limited information and lemmatized the words with NLTK’s WordNetLemmatizer to group the same word with different tenses together to analyse it as a single item. The final climate dataset is what the automated network was based on. 
+
+Firstly, the data was structured to only include mentions of members part of the two wings. Secondly, we counted the amount of times each actor was mentioned by the other actors, and this was represented by the node size, i.e., the larger the node, the more mentions.
+Edge size thickness represents how often the actors have referred to each other. Aligned with Decuypere (2020), we employed a ForceAtlas2 algorithm to our network in Gephi. ForceAtlas2 works by attributing repulsive forces to nodes and attractive force to edges until it reaches a point that guarantees the best balance of forces (Decuypere, 2020). By applying this algorithm, connected nodes are linked closer to each other, which helps visualize the network. 
+
+The reason for exploring mentions is that we believe inspecting mentions allows for more of an open conversation about topics compared to retweets, as one can write whatever they want in a mention. Furthermore, a previous study comparing a retweet and mention network on U.S. political communication on Twitter found that mention networks offered a more heterogeneous cluster of users compared to re-weets, where more users interacted with users of opposite political alignment (Conover et al., 2011). Therefore, a mention network made sense as we want to explore the communication between the factions.
+
+<em>Findings</em>
+
+FIG 5: NETWORK HERE 
+
+We applied a modularity statistic on our network using Gephi, which found a rather low modularity (0.456 out of 1). A high modularity score indicates that the actors formed distinct network structures (Yuan et al., 2019), which was not apparent in our network. This relationship may be attributed to our actors expressing similar views regarding climate change and sustainability. When analysing the network further, we refer back to our immersion journal in order to compare it to our relational data, so that we not only visualize but can also narrate the network (Decuypere, 2020). One key finding was that the edge size was thicker for progressives as compared to moderates, suggesting stronger ties among progressives. Referring back to our immersion journal, this is inline with what we found regarding how often our actors referred to each other in tweets. The largest node size was for Representatives Raul Grijalva and Donald McEachin, who are both very immersed in the climate debate. Interestingly, these two actors are from different wings, suggesting that members of each faction intermingle on social media to a large extent. In general, the network has a high density among all actors, and there is no distinct clustering between the two wings, which may be because the politicians are all from the same party. 
+
+<em>Limitations</em>
 
 ## Content analysis <a name="content"></a>
 The second paragraph text
