@@ -21,7 +21,7 @@
     2. [Findings](#findingscontent) 
     3. [Limitations](#limcontent)
 7. [Qualitative & quantitative approach](#qualquant)
-8. [Conclusion](#conclusion)
+8. [Discussion & conclusion](#conclusion)
 9. [References](#ref)
 10. [Appendices](#append)
     1. [Appendix A](#appa)
@@ -214,7 +214,7 @@ The ASDS 2 part contributed to our paper as it provided us with a better overall
 The knowledge we wanted to produce with this paper was a better understanding of how moderates and progressives approach issues pertaining to climate change and sustainability on social media. We kept our research question broad as the goal of this paper was not to engage in hypothesis testing, but understand general patterns. We wanted to explore the "hows" and the "whys," which in this case was possible by the integration of quantitative methods to find patterns and qualitative methods to help interpret these findings. Further, we used agenda setting theory to assist us in making sense of the data, to avoid putting too much emphasis on the data and analytical findings, without having a basis for these findings (Halford & Savage, 2017). We focused on the concept of social analytics – where the end is not to track data for our own sake, but rather for a broader political or social goal (Couldry, 2014). The political goal at hand was to explore inter-party differences and similarities that surfaced as The Green New Deal proposal was reintroduced. By focusing on how both fractions approach the topic, as well as a broad political goal, we argue that the data tracking was not for our own sake, but rather to explore the democratic parties' communication patterns in regards to environmental sustainability.
 
 
-## Conclusion <a name="conclusion"></a>
+## Discussion & conclusion <a name="conclusion"></a>
 The second paragraph text
 
 ## References <a name="ref"></a>
