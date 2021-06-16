@@ -80,14 +80,14 @@ Two main limitations characterise our netnography. First, our analysis of the tw
 
 ## Advanced Social Data Science 2 <a name="asds2"></a>
 
-### Motivation <a name="motivation"></a>
+## Motivation <a name="motivation"></a>
 For our project, we focus on how different wings of the U.S. Democratic Party approach issues of climate change and sustainability. We delineate two wings of the Democratic Party, the moderates and the progressives, by examining the two largest congressional coalitions that relate to the two factions, the New Democrats and the Congressional Progressive Caucus. We aim to investigate how progressives and moderates approach environmental sustainability on Twitter through the lens of agenda setting. This motivates us to pose the following research question: 
 
 <em> RQ: How do progressive and moderate U.S Democrats approach the topic of climate change and sustainability on Twitter? </em>
 
 The agenda setting theory refers to the selection and portrayal of certain issues in the media, leading people to perceive those issues as more important than others and assisting in their interpretations (Wu & Coleman, 2009). There are two levels of the theory: the first level concerns the amount of coverage of a certain issue, and the second level concerns how the issue is portrayed (<em ibid. </em>). We apply the algorithm developed by (King et al., 2017) to classify climate tweets in our dataset. Thereafter, we implement the hierarchical stochastic block model (hSBM) to explore the first level of agenda setting, i.e., what topics are present in the politicians' tweets, and the amount of coverage of these topics from the progressives and moderates. We argue that the wording used by Democrats when tweeting about climate change and sustainability acts as frames in how they want people to understand climate change and sustainability. Therefore, we will explore the second level of agenda setting by using Part of speech tagging (POS-T) to investigate the wording used in the climate tweets. 
 
-### Applied methods <a name="appmethods"></a>
+## Applied methods <a name="appmethods"></a>
 
 <em> Computer-assisted classifier of climate tweets </em>
 
