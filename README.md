@@ -133,7 +133,7 @@ Table 5 indicates that the moderates and the progressive use similar wording whe
 
 TABLE 5 HERE
 
-
+The moderates use the nouns economy, energy, and job more frequently than the progressives, and the progressives use the nouns justice, time, and people more frequently than the moderates. This backs up previous findings from the hSBM model that the topic of investments in green innovation is more present in tweets from moderates. In contrast, intersectionality () is a topic that is more present in tweets from progressives. Looking at the adjectives used by the progressives and the moderates, only a few words differ. The word “bold” is more used by the progressives and calls for rather drastic and immediate changes. This stands in great contrast to the word "future," which is more commonly used by progressives. The use of verbs does not differ between the moderate and the progressive Democrats. 
 
 ## Conclusion <a name="conasds"></a>
 The second paragraph text
