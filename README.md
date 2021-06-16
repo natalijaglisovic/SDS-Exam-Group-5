@@ -156,24 +156,24 @@ The second paragraph text
 Appendix A 
 This appendix will briefly overview the specific steps implemented to classify Tweets containing green transition content.
 
-1. Define a reference set R and search set S. 
+**1. Define a reference set R and search set S**
 
 We defined R as tweets including one or more of the following words, Q_r: {'greennewdeal', 'gnd', ', 'climate', 'climatecrisis', 'climatechange', 'actonclimte', 'climateactionnow'}. A total of 10,525 tweets was included in our reference set. We defined S as all other tweets in our sampled corpus, and S, thereby, includes 531.310 tweets in total. 
 
-2. Using classifiers to partition all documents in S into either the target set, T, or its complement, (S\T). 
+**2. Using classifiers to partition all documents in S into either the target set, T, or its complement, (S\T).**
 
-(a) First, we define a training set by drawing a random sample from R and S. We repeated this step using different random sub-settings to increase the diversity of Keyword candidates. 
-(b) We fitted the Naive Bayes and Logit classifiers to the training set using each tweet's actual membership in R or S as the outcome variable. We use the preprocessed text of the documents and available metadata (such as date of tweet creation, democratic wing membership, etc. ) as predictors.
-(c) After fitting the classifiers, we use the estimated parameters to calculate the predicted probability of S being a member of R for all documents in S. The intention is that the algorithm learns from the mistakes that these classifiers make when placing high probabilities of S being in R. 
-(d) We then aggregate the predicted probabilities of R membership from S into a single score. In this analysis, we used two different classifiers to obtain different "opinions" about the set placement of individual documents. Different classifiers pick up on different aspects of the climate concept and therefore highlight different keywords to choose from. We aggregate the probabilities across classifiers by taking the maximum probability across the classifiers as the membership score. We then use this score to group documents into T and (S\T)
+**(a)** First, we define a training set by drawing a random sample from R and S. We repeated this step using different random sub-settings to increase the diversity of Keyword candidates. 
+**(b)** We fitted the Naive Bayes and Logit classifiers to the training set using each tweet's actual membership in R or S as the outcome variable. We use the preprocessed text of the documents and available metadata (such as date of tweet creation, democratic wing membership, etc. ) as predictors.
+**(c)** After fitting the classifiers, we use the estimated parameters to calculate the predicted probability of S being a member of R for all documents in S. The intention is that the algorithm learns from the mistakes that these classifiers make when placing high probabilities of S being in R. 
+**(d)** We then aggregate the predicted probabilities of R membership from S into a single score. In this analysis, we used two different classifiers to obtain different "opinions" about the set placement of individual documents. Different classifiers pick up on different aspects of the climate concept and therefore highlight different keywords to choose from. We aggregate the probabilities across classifiers by taking the maximum probability across the classifiers as the membership score. We then use this score to group documents into T and (S\T)
 
-3. Find keywords that best classify documents into either T or (S\T), as follows: 
+**3. Find keywords that best classify documents into either T or (S\T), as follows: **
 
-(a) We generate a set of potential keywords by mining S for all words that occur in more than five tweets.
-(b) We then decide whether each keyword characterizes T or (S\T) better by comparing the proportion of tweets containing the keyword in T and (S\T).
-(c) We rank keywords according to how well they discriminate between T and (S\T). We do this using a statistical likelihood score (see King et al., 2017)
+**(a)** We generate a set of potential keywords by mining S for all words that occur in more than five tweets.
+**(b)** We then decide whether each keyword characterizes T or (S\T) better by comparing the proportion of tweets containing the keyword in T and (S\T).
+**(c)** We rank keywords according to how well they discriminate between T and (S\T). We do this using a statistical likelihood score (see King et al., 2017)
 
-4. The keywords are presented in lists, and we choose words of interest for building a document retrieval query. 
+**4. The keywords are presented in lists, and we choose words of interest for building a document retrieval query. **
 
 Our climate dataset includes the following tokens, Q_(r,t): {'greennewdeal', 'gnd', 'environment', 'climate', 'climatecrisi', 'climatechang','earthday', 'actonclim', 'climateactionnow'} 
 
