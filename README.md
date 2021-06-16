@@ -2,11 +2,11 @@
 
 # Table of contents
 1. [Introduction](#introduction) (exam.nr: 2)
-2. [Netnography](#netnography) (exam.nr: 2)
+2. [Netnography](#netnography) 
     1. [Methodology](#methodology) (exam.nr: 2)
     2. [Analysis](#analysis) (exam.nr: 2)
     3. [Limitations and further research](#limitations) (exam.nr: 2)
-3. [Advanced social data science 2](#asds2) (exam.nr: 2)
+3. [Advanced social data science 2](#asds2) 
     1. [Motivation](#motivation) (exam.nr: 2)
     2. [Applied Methods](#appmethods) (exam.nr: 2)
     3. [Discussion of preprocessing and analytical choices](#disasds) (exam.nr: 2)
