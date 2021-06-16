@@ -95,7 +95,7 @@ Our initial sample consists of more than 600,000 tweets. We train a classifier t
 
 <em> hSBM topic modelling </em>
 
-In order to examine the topics and the coverage of these topics in the climate-related tweets of the Democrats, we use the hSBM for topic detection. This model represents the text corpus as a bipartite network consisting of words and documents. By implementing community-detection methods, we are able to detect the relevant topics in the text corpus by examining the hierarchical clusters of documents. In this analysis, we base our findings on the document groups formed at level one in the hSBM hierarchy. Previous studies have demonstrated that the hSBM model outperforms an LDA model in terms of model selection and topic accuracy (Gerlach et al., 2018). Further description of the hSBM topic model can be found in Appendix B. 
+In order to examine the topics and the coverage of these topics in the climate-related tweets of the Democrats, we use the hSBM for topic detection. This model represents the text corpus as a bipartite network consisting of words and documents. By implementing community-detection methods, we are able to detect the relevant topics in the text corpus by examining the hierarchical clusters of documents. In this analysis, we base our findings on the document groups formed at level one in the hSBM hierarchy. Previous studies have demonstrated that the hSBM model outperforms an LDA model in terms of model selection and topic accuracy (Gerlach et al., 2018). Further description of the hSBM topic model can be found in [Appendix B](https://github.com/natalijaglisovic/SDS-Exam-Group-5/blob/main/README.md#appendix-b-). 
 
 <em> Part of speech tagging (POS-T) </em>
 
