@@ -243,9 +243,7 @@ King, L. (2021). Green New Deal too ambitious for some Democrats, even those who
 
 Koziner, R. V. (2019). Netnography: The essential guide to qualitative social media research. London: Sage.
  
-Lindgren, I. (2020). Dealing with highly dimensional data using principal component analysis (PCA). Toward Data Science. https://towardsdatascience.com/dealing-with-highly-dimensional-data-using-principal-component-analysis-pca-fea1ca817fe6
-
-Jungherr, A. (2016). Twitter use in election campaigns: A systematic literature review, Journal of Information & Technology, 13(1), 72 – 91.
+Jungherr, A. (2016). Twitter use in election campaigns: A systematic literature review, <em>Journal of Information & Technology, 13</em>(1), 72 – 91.
  
 Meftah, S. Semmar, N. & Sadat, F. (2018). A Neural Network Model for Part-Of-Speech Tagging of Social Media Texts, European Language Resources Association, L18-1446 
 
