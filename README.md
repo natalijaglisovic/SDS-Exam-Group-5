@@ -101,7 +101,12 @@ In order to examine the topics and the coverage of these topics in the climate-r
 We use POS-T to explore how climate change and sustainability are portrayed in the politicians' tweets. This method assigns a label to all tokens in the text corpus, indicating the words' grammatical categories. This method thereby allows us to investigate the politicians' choice of wording in the climate tweets (Meftah et al., 2018 ).
 
 ## Discussion of preprocessing and analytical choices <a name="disasds"></a>
-The second paragraph text
+In the following analysis, we use tweets of Democratic politicians as data. The dataset thereby consists of unstructured information, and initial preprocessing is required to obtain an applicable dataset for analysis. As the inferences of a study can be greatly sensitive to the preprocessing applied, all preprocessing decisions must be well considered (Denny & Spirling, 2018). 
+
+In our preprocessing, we have implemented the following steps. All letters in the text corpus have been lowercased to prevent distinguishing identical words due to capitalization. Furthermore, all punctuation, separators, and numbers have been removed from the text corpus, as we have deemed these characters less critical for our analysis. Next, we have chosen to lemmatize the text corpus, enabling us to group words by their lemma. Finally, we have removed stopwords as these words usually convey little information. Finally, we have decided to remove the domain-specific terms: "RT," "via," "@mentions," and URLs. These are removed from the text-corpus in order to isolate the actual text in the tweets. This analytical choice implies that we cannot distinguish between re-tweets and original tweets, a choice we feel comfortable making as politicians often retweet posts they agree with (Guerrero-Sole, 2018). Words from re-tweets are thereby included in both the topic model and the speech tagging.
+
+The classifier we implemented to designate climate tweets incorporates a combination of unsupervised and supervised approaches. The classifier uses an automated approach, but the interpretation of the output, i.e., which keywords to use, is based on our immersion with the topic from our netnographic work. In this way, we overcome the limitation of the quality of the training corpus from a supervised approach, as well as the interpretation issues often associated with an unsupervised approach (Chaovalit & Zhou, 2005). We have removed all prominent climate words, such as "climate," "climate chang," and "environment," from the analysis of the climate dataset. These commonly used climate words were present in most tweets and consequently did not convey great meaning. 
+
 
 ## Results <a name="resultsasds"></a>
 The second paragraph text
