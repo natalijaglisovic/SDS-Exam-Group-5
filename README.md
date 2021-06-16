@@ -220,13 +220,17 @@ The knowledge we wanted to produce with this paper was a better understanding of
 The second paragraph text
 
 ## References <a name="ref"></a>
+Bhugra, D. (2016). Social discrimination and social justice. <em>International Review of Psychiatry, 28</em>(4), 336 - 341. 
+
 Blok et al. (2021). Inter-risk framing contests: the politics of issue attention among Scandinavian climate NGOs during the coronavirus pandemic. Unpublished manuscript. 
+ 
+Chaovalit, P., & Zhou, L. (2005). Movie review mining: a comparison between supervised and unsupervised classification approaches.<em>HICSS’05: Proceedings of 38th Annual Hawaiian International Conference on System Sciences, 4</em>(4), 1 - 9. 
  
 Conover, M. D., Ratkiewicz. J, Francisco, M., Goncalves, B., Flammini, A., Menczer, F. (2011). Political polarization on Twitter. <em>Fifth International AAAI Conference on Weblogs and Social Media, 5</em>(1), 89 - 96. 
 
-Chaovalit, P., & Zhou, L. (2005). Movie review mining: a comparison between supervised and unsupervised classification approaches.<em>HICSS’05: Proceedings of 38th Annual Hawaiian International Conference on System Sciences, 4</em>(4), 1 - 9. 
-
 Couldry, N. (2014). Inaugural: A necessary disenchantment: myth, agency and injustice in a digital world. <em>The Sociological Review, 62</em>(4), 880 – 897. 
+
+Crenshaw, K. (1989). Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory and Antiracist Politics, <em>University of Chicago Legal Forum, 1989</em>(8). 
 
 Denny, M. J., & Spirling, A. (2018). Text preprocessing for unsupervised learning: Why it matters, when it misleads, and what to do about it. <em>Political Analysis, 26</em>(2), 168-189.
  
@@ -244,18 +248,26 @@ Guerrero-Solio, F. (2018). Interactive behavior in political discussion on twitt
  
 Halford, S., & Savage, M. (2017). Speaking sociologically with big data: symphonic social science and the future for big data research. <em>Sociology, 51</em>(6), 1132 – 1148.
 
+Jungherr, A. (2016). Twitter use in election campaigns: A systematic literature review, <em>Journal of Information & Technology, 13</em>(1), 72 – 91.
+
 King, G., Lam, P. & Roberts, M. (2017). Computer-Assisted Keyword and Document Set Discovery from Unstructured Text. <em>American Journal of Political Science, 61</em>(3)
 
 King, L. (2021). Green New Deal too ambitious for some Democrats, even those who say Congress must ‘do something’. USA Today. https://eu.usatoday.com/story/news/politics/2019/03/07/green-new-deal-not-all-democrats-board-ambitious-climate-plan/3032887002/
 
 Koziner, R. V. (2019). Netnography: The essential guide to qualitative social media research. London: Sage.
- 
-Jungherr, A. (2016). Twitter use in election campaigns: A systematic literature review, <em>Journal of Information & Technology, 13</em>(1), 72 – 91.
+
+Lai, S. S., Pagh, J., & Zeng, F. H. (2019). Tracing Communicative Patterns: A comparative ethnography across platforms, media and contexts, <em>NordiCom Review, 40</em>(1), 141 - 157. 
+
+Lindstädt, R., & Vander Wielen, R. J. (2013). Dynamic Elite Partisanship: Party Loyalty and Agenda Setting in the US House. <em>British Journal of Political Science, 44</em>(4), 741 - 772. 
  
 Meftah, S. Semmar, N. & Sadat, F. (2018). A Neural Network Model for Part-Of-Speech Tagging of Social Media Texts, <em>European Language Resources Association</em>, L18-1446 
 
 Munk, A. K. (2019). Four styles of quali-quantitative analysis. Making sense of the new nordic food movement on the web. <em>Nordicom Review, 40</em>(1), 159 – 176.
- 
+
+Noel, H. (2016). Ideological factions in the republican and democratic parties.<em>Annals of the American Academy of Political and Social Science, 667</em>(1), 166–188.
+
+Skogerbø, E., & Krumsvik, A. H. (2015). Newspapers, Facebook and Twitter. <em>Journalism Practice, 9</em>(3), 350 - 366. 
+
 Vargas, M. (2018). ”Agents of change”: the progressive democratic diffusion across U.S. house and state legislative elections in 2018. University of California Santa Cruz: Dean’s and Chancellor’s Research Award.
  
 Wu, D., & Coleman, R. (2009). Advancing agenda-setting theory: The comparative strength and new contingent conditions of the two levels of agenda-setting effects. <em>Journalism & Mass Communication Quarterly, 86</em>(4), 775 – 789.
