@@ -80,14 +80,14 @@ Two main limitations characterise our netnography. First, our analysis of the tw
 
 ## Advanced Social Data Science 2 <a name="asds2"></a>
 
-## Motivation <a name="motivation"></a>
+### Motivation <a name="motivation"></a>
 For our project, we focus on how different wings of the U.S. Democratic Party approach issues of climate change and sustainability. We delineate two wings of the Democratic Party, the moderates and the progressives, by examining the two largest congressional coalitions that relate to the two factions, the New Democrats and the Congressional Progressive Caucus. We aim to investigate how progressives and moderates approach environmental sustainability on Twitter through the lens of agenda setting. This motivates us to pose the following research question: 
 
 <em> RQ: How do progressive and moderate U.S Democrats approach the topic of climate change and sustainability on Twitter? </em>
 
 The agenda setting theory refers to the selection and portrayal of certain issues in the media, leading people to perceive those issues as more important than others and assisting in their interpretations (Wu & Coleman, 2009). There are two levels of the theory: the first level concerns the amount of coverage of a certain issue, and the second level concerns how the issue is portrayed (<em ibid. </em>). We apply the algorithm developed by (King et al., 2017) to classify climate tweets in our dataset. Thereafter, we implement the hierarchical stochastic block model (hSBM) to explore the first level of agenda setting, i.e., what topics are present in the politicians' tweets, and the amount of coverage of these topics from the progressives and moderates. We argue that the wording used by Democrats when tweeting about climate change and sustainability acts as frames in how they want people to understand climate change and sustainability. Therefore, we will explore the second level of agenda setting by using Part of speech tagging (POS-T) to investigate the wording used in the climate tweets. 
 
-## Applied methods <a name="appmethods"></a>
+### Applied methods <a name="appmethods"></a>
 
 <em> Computer-assisted classifier of climate tweets </em>
 
@@ -109,7 +109,7 @@ In our preprocessing, we have implemented the following steps. All letters in th
 The classifier we implemented to designate climate tweets incorporates a combination of unsupervised and supervised approaches. The classifier uses an automated approach, but the interpretation of the output, i.e., which keywords to use, is based on our immersion with the topic from our netnographic work. In this way, we overcome the limitation of the quality of the training corpus from a supervised approach, as well as the interpretation issues often associated with an unsupervised approach (Chaovalit & Zhou, 2005). We have removed all prominent climate words, such as "climate," "climate chang," and "environment," from the analysis of the climate dataset. These commonly used climate words were present in most tweets and consequently did not convey great meaning. 
 
 
-## Results <a name="resultsasds"></a>
+### Results <a name="resultsasds"></a>
 We evaluate the classifier in two different ways starting with a qualitative review of the suggested keywords followed by an evaluation on both the recall and the precision. Table 2 lists the top 25 most predictive keywords for the target (T) and the non-target (S/T)  set. The table is a result of a single run of the algorithm without human input.
 
 TABLE 2 INPUT HERE
@@ -135,12 +135,12 @@ TABLE 5 HERE
 
 The moderates use the nouns economy, energy, and job more frequently than the progressives, and the progressives use the nouns justice, time, and people more frequently than the moderates. This backs up previous findings from the hSBM model that the topic of investments in green innovation is more present in tweets from moderates. In contrast, intersectionality (see [Netnography](https://github.com/natalijaglisovic/SDS-Exam-Group-5/blob/main/README.md#netnography-)) is a topic that is more present in tweets from progressives. Looking at the adjectives used by the progressives and the moderates, only a few words differ. The word “bold” is more used by the progressives and calls for rather drastic and immediate changes. This stands in great contrast to the word "future," which is more commonly used by progressives. The use of verbs does not differ between the moderate and the progressive Democrats. 
 
-## Conclusion <a name="conasds"></a>
+### Conclusion <a name="conasds"></a>
 For our project, we centered our analysis on how the progressive and moderate politicians of the U.S. Democratic Party approach climate change and sustainability on Twitter. We analyzed their portrayal and selection of climate issues on social media using the frame point of agenda setting. 
 First, we trained a human-led, computer-assisted classifier to detect tweets with climate content in our large unstructured text corpus. We based our further analysis on this climate dataset. We investigate the first level of agenda setting by implementing an hSBM topic model to uncover the sub-topics of the climate tweets and the coverage of these topics by the two democratic wings. Concerns with the climate policy implemented by former president Trump is the most frequently covered topic on the Democratic politicians' Twitter timelines. Furthermore, we uncover that moderate Democrats are more prone to cover the benefits of investments in sustainable innovations and the local impacts of climate change on their Twitter profile. Progressives, on the other hand, are more likely to cover intersectionality between climate and social justice. The second level of agenda setting concerns how the democratic politicians portray climate change and sustainability issues on their Twitter accounts. Implementing POS-T, we uncover that the wording used by the progressive and moderate Democrats does not differ substantially. Both wings of the party refer to climate change as a threat to the planet which requires immediate action.
 
 
-## Discussion of alternative methods <a name="altmethodsasds"></a>
+### Discussion of alternative methods <a name="altmethodsasds"></a>
 Instead of investigating the second level of agenda setting, which refers to the portrayal of climate change and sustainability issues, we could have opted to do the Part Of Speech Tagging on selected politicians' tweets. Looking at individuals' use of words instead of the caucus' aggregated use of words could have provided us with more diverse findings, as writing style might depend on something different than caucus affiliation. However, this analysis would require a large number of observations for each politician, and the data collected for this project would not be sufficient. Another possibility for detecting the writing styles of politicians from the Democratic Party could be to implement a stylometry-based approach to a vector space model following the course of action presented in the study by Gomez-Adorno et al. (2018). This model requires longer text inputs, so merging the tweets for each politician or including text from the politician's official webpage would be necessary. Another interesting research question connected to the second level of agenda setting would be to investigate whether the writing style of the politicians depends on the online platform. 
 
 ## Manual & automated networks(Back to Digital Methods) <a name="networks"></a>
