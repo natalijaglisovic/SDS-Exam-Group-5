@@ -75,7 +75,7 @@ When discussing climate change and sustainability on social media, moderate Demo
 (Figure 2: Senator Mark Warner discusses sustainable innovation on Facebook)
 
 ### Limitations and further research <a name="limitations"></a>
-This is a sub paragraph, formatted in heading 3 style
+Two main limitations characterise our netnography. First, our analysis of the two wings implies homogeneity within groups, meaning that the progressives think alike and the moderates think alike. While our grappling with the data hints that members within groups post similarly, we concur that this may not be the case. After all, our netnography investigates the social media of 20 politicians, a fraction of the larger sample. Future research should expand this sample size or randomly select members of each coalition to analyse, which would possibly afford more diversity in viewpoints. Second, aside from the initial organisation of our data collection strategy, we lacked a systematic approach to collecting tweets and Facebook posts when exploring the data site, which can be seen by the incongruent dates of the posts we recorded. Since we did not demarcate a timeframe to guide our examination of the site, we recorded posts written in 2019, 2020, and 2021, without consideration of how time may influence climate change and sustainability rhetoric. However, we note that content written across all three years share similar themes, which means this limitation might not have harmed our study's analytic potential. Future research should demarcate a timeframe to examine how the political climate at a given time in history potentially influences climate change rhetoric.
 
 ## Advanced Social Data Science 2 <a name="asds2"></a>
 ASDS2
