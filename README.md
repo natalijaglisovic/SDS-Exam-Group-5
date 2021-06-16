@@ -221,11 +221,11 @@ Chaovalit, P., & Zhou, L. (2005). Movie review mining: a comparison between supe
 
 Couldry, N. (2014). Inaugural: A necessary disenchantment: myth, agency and injustice in a digital world. <em>The Sociological Review, 62</em>(4), 880 – 897. 
 
-Denny, M. J., & Spirling, A. (2018). Text preprocessing for unsupervised learning: Why it matters, when it misleads, and what to do about it. Political Analysis, 26(2), 168-189.
+Denny, M. J., & Spirling, A. (2018). Text preprocessing for unsupervised learning: Why it matters, when it misleads, and what to do about it. <em>Political Analysis, 26</em>(2), 168-189.
  
-Fuhse, J., Stuhler, O., Riebling, J., & Martin, J. L. (2020). Relating social and symbolic relations in quantitative text analysis. A study of parliamentary discourse in the Weimar republic. Poetics, 78, 101363.
+Fuhse, J., Stuhler, O., Riebling, J., & Martin, J. L. (2020). Relating social and symbolic relations in quantitative text analysis. A study of parliamentary discourse in the Weimar republic. <em>Poetics, 78</em>, 101363.
  
-Galvin,R., & Healy, N. (2020). The Green New Deal in the United States: What it is and how to pay for it. Energy Research & Social Science, 67, 1 – 9.
+Galvin,R., & Healy, N. (2020). The Green New Deal in the United States: What it is and how to pay for it. <em>Energy Research & Social Science, 67</em>, 1 – 9.
  
 Gerlach, M., Peixoto, T. & Altmann, E. (2018). A network approach to topic models. Science Advances, 4 (7)
 
