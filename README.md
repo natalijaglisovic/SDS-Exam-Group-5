@@ -96,6 +96,9 @@ Our initial sample consists of more than 600,000 tweets. We train a classifier t
 
 In order to examine the topics and the coverage of these topics in the climate-related tweets of the Democrats, we use the hSBM for topic detection. This model represents the text corpus as a bipartite network consisting of words and documents. By implementing community-detection methods, we are able to detect the relevant topics in the text corpus by examining the hierarchical clusters of documents. In this analysis, we base our findings on the document groups formed at level one in the hSBM hierarchy. Previous studies have demonstrated that the hSBM model outperforms an LDA model in terms of model selection and topic accuracy (Gerlach et al., 2018). Further description of the hSBM topic model can be found in Appendix B. 
 
+<em> Part of Speech Tagging (POS-T) </em>
+
+We use POS-T to explore how climate change and sustainability are portrayed in the politicians' tweets. This method assigns a label to all tokens in the text corpus, indicating the words' grammatical categories. This method thereby allows us to investigate the politicians' choice of wording in the climate tweets (Meftah et al., 2018 ).
 
 ## Discussion of preprocessing and analytical choices <a name="disasds"></a>
 The second paragraph text
