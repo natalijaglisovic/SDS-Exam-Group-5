@@ -110,7 +110,31 @@ The classifier we implemented to designate climate tweets incorporates a combina
 
 
 ## Results <a name="resultsasds"></a>
-The second paragraph text
+We evaluate the classifier in two different ways starting with a qualitative review of the suggested keywords followed by an evaluation on both the recall and the precision. 
+Table 2 lists the top 25 most predictive keywords for the target (T) and the non-target (S/T)  set. The table is a result of a single run of the algorithm without human input.
+
+TABLE 2 INPUT HERE
+
+It appears that most of the target keywords are closely related to the concept of interest, sustainability and climate change. Few of the words are related but not specific enough to be included as a keyword for document retrieval. For example, if we were to include "change," we risk including too many unrelated tweets in our climate dataset. The non-target set consists of keywords that are not clearly related to climate, such as "covid" and "women." 
+For the second evaluation of our classifier, we inspect the recall and precision of grouped keywords. The target set keyword list should ideally perform well on both recall and precision, whereas the non-target keyword list should perform poorly on the same measures.  Figure 3 depicts the cumulative recall and precision for the first 17 keywords in the target and non-target list.
+
+FIGURE 3 HERE
+
+Figure 3 shows that recall and precision for the target set are larger than the non-target set. The algorithm thereby successfully separates the two lists. The increasing trend of the cumulative recall indicates the need for human input, as the recall always will increase as the number of keywords added increases. The steep dive for the target set precision after two keywords added suggests that the third keyword, "chang," significantly worsens the precision. As earlier described, this is due to the general use of this word. This word should therefore not be included in the final search query for document retrieval. We included the tweets containing the tokens, Q_(r,t): {"greennewdeal," "gnd," "environment," "climate," “climatecrisi,” “climatechang,” ”earthday,” “actonclim,” “climateactionnow”} in our dataset.  
+
+From the hSBM topic model, 19 different document communities were identified at level 1 of the hierarchical clustering. Each of these communities represent a subtopic of the climate agenda, and the tweets within each community are connected by the words used in the tweets. Table 3 shows the top five most frequently used words within each document community. We assign topics to the document communities based on the most frequently used words and by investigating the content of a subsample of the tweets within each community. Based on findings from our immersion journal (see netnography), we chose to merge some of the document communities in order to simplify the interpretation of topics present in tweets from moderates and progressives. The merging of the document communities is described in Appendix C. The communities range in size from 38 (0.3 % of all climate tweets) to 1.087 (9.3 % of all climate tweets). Community 12, 16, and 19 will be excluded from the further topic analysis, as these include tweets mainly consisting of emojis, generational security, and school/work environment, which are seemingly unrelated to our study. 
+
+TABLE 3 HERE
+
+Table 4 depicts the topic distribution for moderates and progressives based on document communities from hSBM topic modeling. The table does not show large differences between the two wings in the topics discussed on Twitter. The most raised topics by the democratic politicians are climate initiatives implemented by the Trump administration and intersectionality between climate and social justice. In line with our findings from the immersion journal, we find that the progressives have a stronger focus on injustices than the moderates. On the other hand, the moderates are more inclined to raise topics of how the U.S. economy could improve if it were to invest more in green energy and other sustainable innovations and a stronger focus on the local impacts of climate change.
+
+TABLE 4 HERE
+
+Table 5 indicates that the moderates and the progressive use similar wording when tweeting about climate change and sustainability. Only a few differences in the choice of wording appear when comparing the most used nouns, adjectives, and verbs.
+
+TABLE 5 HERE
+
+
 
 ## Conclusion <a name="conasds"></a>
 The second paragraph text
