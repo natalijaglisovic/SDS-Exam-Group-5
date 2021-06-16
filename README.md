@@ -211,6 +211,49 @@ This is a sub paragraph, formatted in heading 3 style
 The second paragraph text
 
 ## References <a name="ref"></a>
+Blok et al. (2021). Inter-risk framing contests: the politics of issue attention among Scandinavian climate NGOs during the coronavirus pandemic. Unpublished manuscript. 
+ 
+Conover, M. D., Ratkiewicz. J, Francisco, M., Goncalves, B., Flammini, A., Menczer, F. (2011). Political polarization on Twitter. Fifth International AAAI Conference on Weblogs and Social Media, 5(1), 89 - 96. 
+
+Chaovalit, P., & Zhou, L. (2005). Movie review mining: a comparison between supervised and unsupervised classification approaches. HICSS’05: Proceedings of 38th Annual Hawaiian International Conference on System Sciences, 4(4), 1 - 9. 
+
+Couldry, N. (2014). Inaugural: A necessary disenchantment: myth, agency and injustice in a digital world. The Sociological Review, 62(4), 880 – 897. 
+
+Denny, M. J., & Spirling, A. (2018). Text preprocessing for unsupervised learning: Why it matters, when it misleads, and what to do about it. Political Analysis, 26(2), 168-189.
+ 
+Fuhse, J., Stuhler, O., Riebling, J., & Martin, J. L. (2020). Relating social and symbolic relations in quantitative text analysis. A study of parliamentary discourse in the Weimar republic. Poetics, 78, 101363.
+ 
+Galvin,R., & Healy, N. (2020). The Green New Deal in the United States: What it is and how to pay for it. Energy Research & Social Science, 67, 1 – 9.
+ 
+Gerlach, M., Peixoto, T. & Altmann, E. (2018). A network approach to topic models. Science Advances, 4 (7)
+
+Gilardi, F., Gessler, T., Kubli, M., & Müller, S. (2021). Social media and political agenda setting. Political Communication, 1 – 22.
+
+Gomez-Adorno, H., Rios, G. Duran, J.P., Sidorov, G. (2018). Stylometry-based Approach for Detecting Writing Style Changes in Literary Text. Computacio y Sistemas, 22(1)
+
+Guerrero-Solio, F. (2018). Interactive behavior in political discussion on twitter: Politicians, media, and citizen’s patterns of interaction in the 2015 and 2016 electoral campaigns in spain. Social Media + Society, 4(4), 1 - 16. 
+ 
+Halford, S., & Savage, M. (2017). Speaking sociologically with big data: symphonic social science and the future for big data research. Sociology, 51(6), 1132 – 1148.
+
+King, G., Lam, P. & Roberts, M. (2017). Computer-Assisted Keyword and Document Set Discovery from Unstructured Text. American Journa of Political  Science, 61(3)
+
+King, L. (2021). Green New Deal too ambitious for some Democrats, even those who say Congress must ‘do something’. USA Today. https://eu.usatoday.com/story/news/politics/2019/03/07/green-new-deal-not-all-democrats-board-ambitious-climate-plan/3032887002/
+
+Koziner, R. V. (2019). Netnography: The essential guide to qualitative social media research. London: Sage.
+ 
+Lindgren, I. (2020). Dealing with highly dimensional data using principal component analysis (PCA). Toward Data Science. https://towardsdatascience.com/dealing-with-highly-dimensional-data-using-principal-component-analysis-pca-fea1ca817fe6
+
+Jungherr, A. (2016). Twitter use in election campaigns: A systematic literature review, Journal of Information & Technology, 13(1), 72 – 91.
+ 
+Meftah, S. Semmar, N. & Sadat, F. (2018). A Neural Network Model for Part-Of-Speech Tagging of Social Media Texts, European Language Resources Association, L18-1446 
+
+Munk, A. K. (2019). Four styles of quali-quantitative analysis. Making sense of the new nordic food movement on the web. Nordicom Review, 40(1), 159 – 176.
+ 
+Vargas, M. (2018). ”Agents of change”: the progressive democratic diffusion across U.S. house and state legislative elections in 2018. University of California Santa Cruz: Dean’s and Chancellor’s Research Award.
+ 
+Wu, D., & Coleman, R. (2009). Advancing agenda-setting theory: The comparative strength and new contingent conditions of the two levels of agenda-setting effects. Journalism & Mass Communication Quarterly, 86(4), 775 – 789.
+ 
+Yuan, E., Feng, M., & Liu, X. (2019). The r/evolution of civic engagement: an exploratory network analysis of the Facebook group occupy Chicago. Information, Communication & Society, 22(2), 267 - 285. 
 
 ## Appendices <a name="append"></a>
 
