@@ -29,6 +29,7 @@
 10. [Appendices](#append)
     1. [Appendix A](#appa)
     2. [Appendix B](#appb)
+    3. [Appendix C](#appc)
 ## Introduction <a name="introduction"></a>
 
 Inter-party divide in the Democratic party is usually based on ideological differences (Vargas, 2018). This ideological fracture is characterised by the moderate and progressive wing of the party. Although sharing some of the same goals, the moderate Democrats tend to favour slow, incremental change, whereas the progressive Democrats distinguish themselves as activists advocating for populist policies such as Medicare For All (Vargas, 2018). The conflict between the two wings of the Democratic party was highlighted by the Green New Deal solution proposed by U.S. Representative Alexandria Ocasio-Cortez and U.S. Senator Markey (Vargas, 2018). The Green New Deal is the first comprehensive proposal to combine climate change mitigation and the elimination of economic inequality (Galvin & Healy, 2020). The majority of progressive Democrats, such as Senator Bernie Sanders, support and have signed the Green New Deal proposal, whereas some moderates, such as Representative Diane Feinstein, are more critical of it (King, 2021). This inter-party difference in how Democrats tackle and approach climate change is what this paper wishes to explore further. We want to explore how the progressive and moderate Democrats frame and approach climate change and sustainability on social media, focusing on Twitter, Facebook, and their official websites.
@@ -90,7 +91,7 @@ The agenda setting theory refers to the selection and portrayal of certain issue
 
 <em> Computer-assisted classifier of climate tweets </em>
 
-Our initial sample consists of more than 600,000 tweets. We train a classifier to detect tweets with "climate" content in our large corpus. Previous studies have exemplified that choosing a set of keywords for document collection is a near-impossible task for humans to perform. As a result, ad hoc keyword selection performed by humans is usually biased and highly unreliable (King et al., 2017). Therefore, we have chosen to implement King et al.'s algorithm for computer-assisted keyword suggestions. The implementation of the algorithm can be described in the following way: a reference set, R, is defined narrowly using selected keywords from our immersion journal, which we discussed in the netnographic part of our paper. We included all tweets including the following words Q_s: {"greennewdeal," "gnd," "climate," "climatecrisis"} in our reference set. A total of 8,525 tweets were included in our reference set. We define the search set, S,  as all other tweets in our corpus. The goal with the classifier is to identify a target set, T, within the search set (T ∈ S), containing documents with new examples of the concept in question. The algorithm ranks keywords from the search set by the likely relations to the concept represented by the reference set. By human input, we create Q_t, which is intended to retrieve T from S (<em>ibid.</em>). [Appendix A](https://github.com/natalijaglisovic/SDS-Exam-Group-5/blob/main/README.md#appendix-a-)describes the implementation of the keyword algorithm in detail. We classified 11,655 tweets in total as containing climate content.  
+Our initial sample consists of more than 600,000 tweets. We train a classifier to detect tweets with "climate" content in our large corpus. Previous studies have exemplified that choosing a set of keywords for document collection is a near-impossible task for humans to perform. As a result, ad hoc keyword selection performed by humans is usually biased and highly unreliable (King et al., 2017). Therefore, we have chosen to implement King et al.'s algorithm for computer-assisted keyword suggestions. The implementation of the algorithm can be described in the following way: a reference set, R, is defined narrowly using selected keywords from our immersion journal, which we discussed in the netnographic part of our paper. We included all tweets including the following words Q_s: {"greennewdeal," "gnd," "climate," "climatecrisis"} in our reference set. A total of 8,525 tweets were included in our reference set. We define the search set, S,  as all other tweets in our corpus. The goal with the classifier is to identify a target set, T, within the search set (T ∈ S), containing documents with new examples of the concept in question. The algorithm ranks keywords from the search set by the likely relations to the concept represented by the reference set. By human input, we create Q_t, which is intended to retrieve T from S (<em>ibid.</em>). [Appendix A](https://github.com/natalijaglisovic/SDS-Exam-Group-5/blob/main/README.md#appendix-a-) describes the implementation of the keyword algorithm in detail. We classified 11,655 tweets in total as containing climate content.  
 
 <em> hSBM topic modelling </em>
 
@@ -188,4 +189,28 @@ We defined R as tweets including one or more of the following words, Q_r: {'gree
 Our climate dataset includes the following tokens, Q_(r,t): {'greennewdeal', 'gnd', 'environment', 'climate', 'climatecrisi', 'climatechang','earthday', 'actonclim', 'climateactionnow'} 
 
 ### Appendix B <a name="appb"></a>
-Appendix B
+Appendix B: 
+
+Using a hSBM model gives a new framework to detect topics in unstructured text. By representing the word-document matrix as a bipartite network, inferring topics becomes a problem of inferring communities. The hSBM is a nonparametric approach that uncovers thematic structures in unstructured text and automatically determines the number of topics based on both words and documents. 
+
+The network structure can be described via a graph consisting of a set of nodes (N) that are connected by edges (E).  In the hSBM  model, each node is assumed to have a fixed community membership (C), which is determined by the probability of an edge existing to other nodes. In this use case, each node represents a tweet, and each edge represents a word from the tweets. Thus, the documents are grouped in a community if there is a high probability that the tweets contain the same words. A more elaborate method examination can be found in "A network approach to topic models" (Gerlach et al., 2018).
+
+### Appendix C <a name="appc"></a>
+Community 1 and community 3 contain tweets on how the US economy can improve through investments in green energy and sustainable solutions. 
+
+Community 2 contains tweets concerning legislation proposals such as the Green New Deal and the Clean Air Act and international agreements such as the Paris agreement.
+
+Community 4, 8, and 9 include tweets protesting about climate initiatives implemented by the Trump administration.
+
+Community 5 includes tweets that links public health issues to emission/pollution. 
+
+Community 6 includes tweets connecting climate change to natural phenomena such as hurricanes, wildfires,  droughts, ice melting, etc. 
+
+Community 7 and 10 call for urgency and describe climate change as the top thread to the planet. 
+
+Community 11 and 15 contains tweets concerned about the local environment.  Community 11 mainly includes tweets about conservation and recreation of nature, whereas community  15 contains tweets about local pollution
+
+Community 14 and community 17 contains tweets concerned with environmental injustice. Tweets from community 14 often link to other inequities as well, such as gender and racial injustice. Community 17 looks at environmental injustices between local communities/neighborhoods in the US.
+
+Community 12 and Community 19 seem to catch topics that are not necessarily related to green transitions, such as home, school, and work environments. 
+
