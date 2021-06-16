@@ -215,11 +215,11 @@ The second paragraph text
 ## References <a name="ref"></a>
 Blok et al. (2021). Inter-risk framing contests: the politics of issue attention among Scandinavian climate NGOs during the coronavirus pandemic. Unpublished manuscript. 
  
-Conover, M. D., Ratkiewicz. J, Francisco, M., Goncalves, B., Flammini, A., Menczer, F. (2011). Political polarization on Twitter. Fifth International AAAI Conference on Weblogs and Social Media, 5(1), 89 - 96. 
+Conover, M. D., Ratkiewicz. J, Francisco, M., Goncalves, B., Flammini, A., Menczer, F. (2011). Political polarization on Twitter. <em>Fifth International AAAI Conference on Weblogs and Social Media, 5</em>(1), 89 - 96. 
 
-Chaovalit, P., & Zhou, L. (2005). Movie review mining: a comparison between supervised and unsupervised classification approaches. HICSS’05: Proceedings of 38th Annual Hawaiian International Conference on System Sciences, 4(4), 1 - 9. 
+Chaovalit, P., & Zhou, L. (2005). Movie review mining: a comparison between supervised and unsupervised classification approaches.<em>HICSS’05: Proceedings of 38th Annual Hawaiian International Conference on System Sciences, 4</em>(4), 1 - 9. 
 
-Couldry, N. (2014). Inaugural: A necessary disenchantment: myth, agency and injustice in a digital world. The Sociological Review, 62(4), 880 – 897. 
+Couldry, N. (2014). Inaugural: A necessary disenchantment: myth, agency and injustice in a digital world. <em>The Sociological Review, 62</em>(4), 880 – 897. 
 
 Denny, M. J., & Spirling, A. (2018). Text preprocessing for unsupervised learning: Why it matters, when it misleads, and what to do about it. Political Analysis, 26(2), 168-189.
  
