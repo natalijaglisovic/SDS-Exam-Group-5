@@ -1,29 +1,32 @@
 # Climate Change and Sustainability Communication in the U.S. Democratic Party
 
 # Table of contents
-1. [Introduction](#introduction) (exam.nr: 2)
+1. [Introduction](#introduction) (exam.nr: 30)
 2. [Netnography](#netnography) 
-    1. [Methodology](#methodology) (exam.nr: 2)
-    2. [Analysis](#analysis) (exam.nr: 2)
-    3. [Limitations and further research](#limitations) (exam.nr: 2)
+    1. [Methodology](#methodology) (exam.nr: 32)
+    2. [Analysis](#analysis) (exam.nr: 8)
+    3. [Limitations and further research](#limitations) (exam.nr: 30)
 3. [Advanced social data science 2](#asds2) 
-    1. [Motivation](#motivation) (exam.nr: 2)
-    2. [Applied Methods](#appmethods) (exam.nr: 19)
+    1. [Motivation](#motivation) (exam.nr: 19)
+    2. [Applied Methods](#appmethods) (exam.nr: 2)
     3. [Discussion of preprocessing and analytical choices](#disasds) (exam.nr: 30)
     4. [Results](#resultsasds) (exam.nr: 19)
     5. [Conclusion](#conasds) (exam.nr: 2)
     6. [Discussion of alternative methods](#altmethodsasds) (exam.nr: 30)
 5. [Manual & automated networks (Back to Digital Methods)](#networks) (exam.nr: 2)
-    1. [Manual network](#manual) (exam.nr: 2)
-    2. [Automated network](#automated)  (exam.nr: 2)
+    1. [Manual network](#manual) (exam.nr: 32)
+    2. [Automated network](#automated)  (exam.nr: 30)
 6. [Content analysis](#content) 
-    1. [Method](#methodcontent) (exam.nr: 2)
-    2. [Findings](#findingscontent) (exam.nr: 2)
-    3. [Limitations](#limcontent) (exam.nr: 2)
-7. [Qualitative & quantitative approach](#qualquant) (exam.nr: 2)
-8. [Discussion & conclusion](#conclusion) (exam.nr: 2)
-9. [References](#ref) 
-10. [Appendices](#append) 
+    1. [Method](#methodcontent) (exam.nr: 8)
+    2. [Findings](#findingscontent) (exam.nr: 30)
+    3. [Limitations](#limcontent) (exam.nr: 32)
+7. [Qualitative & quantitative approach](#qualquant) 
+    1. [Qualitative and quantitative interplay](#qual_quant) (exam.nr: 8)
+    2. [ASDS 2 contribution](#asds_cont) (exam.nr: 30)
+    3. [Quality criteria of the paper](#quality) (exam.nr: 32)
+9. [Discussion & conclusion](#conclusion) (exam.nr: 32)
+10. [References](#ref) 
+11. [Appendices](#append) 
     1. [Appendix A](#appa) 
     2. [Appendix B](#appb) 
     3. [Appendix C](#appc) 
@@ -196,18 +199,19 @@ This is a sub paragraph, formatted in heading 3 style
 
 ## Qualitative & quantitative approach <a name="qualquant"></a>
 
-<em>Qualitative and quantitative interplay</em>
+### Qualitative and quantitative interplay <a name="qual_quant"></a>
 
 With the increasing use and potential of big data and analytical methods, it is important to not forget interpretation in research (Couldry, 2014). In order to address this, our paper used a combination of both qualitative and quantitative methods. The qualitative method was our netnographic work and manual network, the quantitative was the automated network, as well as the PCA-analysis. The networks allowed us to see how actors related to each other. The PCA further showed how these actors related to each other, based on their usage of words in regards to environmental sustainability and climate change. The ForceAtlas2 algorithm, which we applied to our automated network, works by finding the most optimal way of cutting a network into smaller components, to find explorative patterns (Munk, 2019). In one way, this is used as a sense-making tool for us that allowed us to explore the relationships produced in the graph by narrowing in on the actors. However, in order to get a better grasp of why the actors are related, our netnographic findings offered a better explanation. As we explored all the findings in our networks and our PCA, we constantly referred back to our immersion journal to make sense of it. Further, if our immersion journal could not explain the relationship, we decided not to analyse it further (Blok et al., 2021). This is the reason for focusing on the 20 politicians we followed in our immersion journal, as we argue that if we cannot refer back to the immersion journal, we cannot fully comprehend the findings. 
 
 As Munk (2019) proposed, qualitative and quantitative methods can be used as a complementary to each other. Our networks and PCA can prompt questions such as, “How come X and Y are related?” or “Why do X and Y both use these terms in regards to environmental sustainability?”. However, in order to answer these questions, further work is needed. Munk (2019) went to the location to conduct interviews to collect deep data to answer these questions. In our case, we used novel digital methods and followed actors for months across platforms in an immersion journal to refer back to the relationship and communication patterns found there. An example was that we found that Joe Manchin in our PCA used very different words in regards to environmental sustainability, and was placed far from the rest of the Democrats. Without our immersion journal, we could not explain this result. 
 
 
-<em>Advanced social data science 2 contribution</em>
+###  ASDS 2 contribution <a name="asds_cont"></a>
 
 The ASDS 2 part contributed to our paper as it provided us with a better overall understanding of the entire sample. In the digital methods section, all parts except the automated network focused on the 20 politicians in our immersion journal, giving us a limited, but in depth, understanding of the progressives and moderates. However, in the ASDS2 part, we conducted a hSBM topic model on the entire sample to get a sense of what topics were talked about in regards to environmental sustainability and climate change. Speech-tagging was used to make sense of how topics were talked about. Here, we could explore overall differences between moderates and progressives, and see if these findings were inline with the smaller sample from the digital methods section. Interestingly, our hSBM topic model showed that the topics differed between moderates and progressives in similar ways that we found in the immersion journal. The speech-tagging further showed differences in communication and framing choices, which were also inline with our netnographic work. It is also important to mention, that the netnographic work done in digital methods supported the work in ASDS2 equally as well, as we had an easier time making sense of the findings and referring back to our previous work.
 
-<em>Quality criteria of the paper</em>
+
+### Quality criteria of the paper <a name="quality"></a>
 
 The knowledge we wanted to produce with this paper was a better understanding of how moderates and progressives approach issues pertaining to climate change and sustainability on social media. We kept our research question broad as the goal of this paper was not to engage in hypothesis testing, but understand general patterns. We wanted to explore the "hows" and the "whys," which in this case was possible by the integration of quantitative methods to find patterns and qualitative methods to help interpret these findings. Further, we used agenda setting theory to assist us in making sense of the data, to avoid putting too much emphasis on the data and analytical findings, without having a basis for these findings (Halford & Savage, 2017). We focused on the concept of social analytics – where the end is not to track data for our own sake, but rather for a broader political or social goal (Couldry, 2014). The political goal at hand was to explore inter-party differences and similarities that surfaced as The Green New Deal proposal was reintroduced. By focusing on how both fractions approach the topic, as well as a broad political goal, we argue that the data tracking was not for our own sake, but rather to explore the democratic parties' communication patterns in regards to environmental sustainability.
 
