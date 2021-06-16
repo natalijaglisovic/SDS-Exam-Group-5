@@ -16,17 +16,17 @@
 5. [Manual & automated networks (Back to Digital Methods)](#networks) (exam.nr: 2)
     1. [Manual network](#manual) (exam.nr: 2)
     2. [Automated network](#automated)  (exam.nr: 2)
-6. [Content analysis](#content) (exam.nr: 2)
+6. [Content analysis](#content) 
     1. [Method](#methodcontent) (exam.nr: 2)
     2. [Findings](#findingscontent) (exam.nr: 2)
     3. [Limitations](#limcontent) (exam.nr: 2)
 7. [Qualitative & quantitative approach](#qualquant) (exam.nr: 2)
 8. [Discussion & conclusion](#conclusion) (exam.nr: 2)
-9. [References](#ref) (exam.nr: 2)
-10. [Appendices](#append) (exam.nr: 2)
-    1. [Appendix A](#appa) (exam.nr: 2)
-    2. [Appendix B](#appb) (exam.nr: 2)
-    3. [Appendix C](#appc) (exam.nr: 2)
+9. [References](#ref) 
+10. [Appendices](#append) 
+    1. [Appendix A](#appa) 
+    2. [Appendix B](#appb) 
+    3. [Appendix C](#appc) 
 
 
 ## Introduction <a name="introduction"></a>
@@ -47,8 +47,6 @@ The netnographic section will follow our immersion journal where we followed the
 
 
 ## Netnography <a name="netnography"></a>
-Netnography
-
 ![IMAGE](https://github.com/natalijaglisovic/SDS-Exam-Group-5/blob/main/images/table1.PNG)
 
 ### Methodology <a name="methodology"></a>
