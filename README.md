@@ -205,7 +205,8 @@ As Munk (2019) proposed, qualitative and quantitative methods can be used as a c
 
 
 <em>Advanced social data science 2 contribution</em>
-This is a sub paragraph, formatted in heading 3 style
+
+The ASDS 2 part contributed to our paper as it provided us with a better overall understanding of the entire sample. In the digital methods section, all parts except the automated network focused on the 20 politicians in our immersion journal, giving us a limited, but in depth, understanding of the progressives and moderates. However, in the ASDS2 part, we conducted a hSBM topic model on the entire sample to get a sense of what topics were talked about in regards to environmental sustainability and climate change. Speech-tagging was used to make sense of how topics were talked about. Here, we could explore overall differences between moderates and progressives, and see if these findings were inline with the smaller sample from the digital methods section. Interestingly, our hSBM topic model showed that the topics differed between moderates and progressives in similar ways that we found in the immersion journal. The speech-tagging further showed differences in communication and framing choices, which were also inline with our netnographic work. It is also important to mention, that the netnographic work done in digital methods supported the work in ASDS2 equally as well, as we had an easier time making sense of the findings and referring back to our previous work.
 
 <em>Quality criteria</em>
 This is a sub paragraph, formatted in heading 3 style
