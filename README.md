@@ -13,7 +13,7 @@
     4. [Results](#resultsasds)
     5. [Conclusion](#conasds)
     6. [Discussion of alternative methods](#altmethodsasds)
-5. [Manual & automated networks](#networks)
+5. [Manual & automated networks (Back to Digital Methods)](#networks)
     1. [Manual network](#manual)
     2. [Automated network](#automated) 
 6. [Content analysis](#content)
