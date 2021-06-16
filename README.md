@@ -21,12 +21,14 @@
     2. [Findings](#findingscontent) 
     3. [Limitations](#limcontent)
 7. [Qualitative & quantitative approach](#qualquant)
-8. [Discussion & conclusion](#conclusion)
+8. [Conclusion](#conclusion)
 9. [References](#ref)
 10. [Appendices](#append)
     1. [Appendix A](#appa)
     2. [Appendix B](#appb)
     3. [Appendix C](#appc)
+
+
 ## Introduction <a name="introduction"></a>
 
 Inter-party divide in the Democratic party is usually based on ideological differences (Vargas, 2018). This ideological fracture is characterised by the moderate and progressive wing of the party. Although sharing some of the same goals, the moderate Democrats tend to favour slow, incremental change, whereas the progressive Democrats distinguish themselves as activists advocating for populist policies such as Medicare For All (Vargas, 2018). The conflict between the two wings of the Democratic party was highlighted by the Green New Deal solution proposed by U.S. Representative Alexandria Ocasio-Cortez and U.S. Senator Markey (Vargas, 2018). The Green New Deal is the first comprehensive proposal to combine climate change mitigation and the elimination of economic inequality (Galvin & Healy, 2020). The majority of progressive Democrats, such as Senator Bernie Sanders, support and have signed the Green New Deal proposal, whereas some moderates, such as Representative Diane Feinstein, are more critical of it (King, 2021). This inter-party difference in how Democrats tackle and approach climate change is what this paper wishes to explore further. We want to explore how the progressive and moderate Democrats frame and approach climate change and sustainability on social media, focusing on Twitter, Facebook, and their official websites.
@@ -195,7 +197,6 @@ By looking at the left-hand side of the graph, we can see a cluster of words suc
 This is a sub paragraph, formatted in heading 3 style
 
 ## Qualitative & quantitative approach <a name="qualquant"></a>
-The second paragraph text
 
 <em>Qualitative and quantitative interplay</em>
 
@@ -208,10 +209,12 @@ As Munk (2019) proposed, qualitative and quantitative methods can be used as a c
 
 The ASDS 2 part contributed to our paper as it provided us with a better overall understanding of the entire sample. In the digital methods section, all parts except the automated network focused on the 20 politicians in our immersion journal, giving us a limited, but in depth, understanding of the progressives and moderates. However, in the ASDS2 part, we conducted a hSBM topic model on the entire sample to get a sense of what topics were talked about in regards to environmental sustainability and climate change. Speech-tagging was used to make sense of how topics were talked about. Here, we could explore overall differences between moderates and progressives, and see if these findings were inline with the smaller sample from the digital methods section. Interestingly, our hSBM topic model showed that the topics differed between moderates and progressives in similar ways that we found in the immersion journal. The speech-tagging further showed differences in communication and framing choices, which were also inline with our netnographic work. It is also important to mention, that the netnographic work done in digital methods supported the work in ASDS2 equally as well, as we had an easier time making sense of the findings and referring back to our previous work.
 
-<em>Quality criteria</em>
-This is a sub paragraph, formatted in heading 3 style
+<em>Quality criteria of the paper</em>
 
-## Discussion & conclusion <a name="conclusion"></a>
+The knowledge we wanted to produce with this paper was a better understanding of how moderates and progressives approach issues pertaining to climate change and sustainability on social media. We kept our research question broad as the goal of this paper was not to engage in hypothesis testing, but understand general patterns. We wanted to explore the "hows" and the "whys," which in this case was possible by the integration of quantitative methods to find patterns and qualitative methods to help interpret these findings. Further, we used agenda setting theory to assist us in making sense of the data, to avoid putting too much emphasis on the data and analytical findings, without having a basis for these findings (Halford & Savage, 2017). We focused on the concept of social analytics – where the end is not to track data for our own sake, but rather for a broader political or social goal (Couldry, 2014). The political goal at hand was to explore inter-party differences and similarities that surfaced as The Green New Deal proposal was reintroduced. By focusing on how both fractions approach the topic, as well as a broad political goal, we argue that the data tracking was not for our own sake, but rather to explore the democratic parties' communication patterns in regards to environmental sustainability.
+
+
+## Conclusion <a name="conclusion"></a>
 The second paragraph text
 
 ## References <a name="ref"></a>
@@ -255,7 +258,7 @@ Vargas, M. (2018). ”Agents of change”: the progressive democratic diffusion 
  
 Wu, D., & Coleman, R. (2009). Advancing agenda-setting theory: The comparative strength and new contingent conditions of the two levels of agenda-setting effects. <em>Journalism & Mass Communication Quarterly, 86</em>(4), 775 – 789.
  
-Yuan, E., Feng, M., & Liu, X. (2019). The r/evolution of civic engagement: an exploratory network analysis of the Facebook group occupy Chicago. Information, Communication & Society, 22(2), 267 - 285. 
+Yuan, E., Feng, M., & Liu, X. (2019). The r/evolution of civic engagement: an exploratory network analysis of the Facebook group occupy Chicago. <em>Information, Communication & Society, 22</em>(2), 267 - 285. 
 
 ## Appendices <a name="append"></a>
 
