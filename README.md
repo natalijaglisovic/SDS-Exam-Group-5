@@ -27,6 +27,8 @@
 8. [Discussion & conclusion](#conclusion)
 9. [References](#ref)
 10. [Appendices](#append)
+    1. [Appendix A](#appa)
+    2. [Appendix B](#appb)
 ## Introduction <a name="introduction"></a>
 
 Inter-party divide in the Democratic party is usually based on ideological differences (Vargas, 2018). This ideological fracture is characterised by the moderate and progressive wing of the party. Although sharing some of the same goals, the moderate Democrats tend to favour slow, incremental change, whereas the progressive Democrats distinguish themselves as activists advocating for populist policies such as Medicare For All (Vargas, 2018). The conflict between the two wings of the Democratic party was highlighted by the Green New Deal solution proposed by U.S. Representative Alexandria Ocasio-Cortez and U.S. Senator Markey (Vargas, 2018). The Green New Deal is the first comprehensive proposal to combine climate change mitigation and the elimination of economic inequality (Galvin & Healy, 2020). The majority of progressive Democrats, such as Senator Bernie Sanders, support and have signed the Green New Deal proposal, whereas some moderates, such as Representative Diane Feinstein, are more critical of it (King, 2021). This inter-party difference in how Democrats tackle and approach climate change is what this paper wishes to explore further. We want to explore how the progressive and moderate Democrats frame and approach climate change and sustainability on social media, focusing on Twitter, Facebook, and their official websites.
@@ -83,7 +85,13 @@ For our project, we focus on how different wings of the U.S. Democratic Party ap
 ### Applied methods <a name="appmethods"></a>
 
 <em> Computer-assisted classifier of climate tweets </em>
+
 Our initial sample consists of more than 600,000 tweets. We train a classifier to detect tweets with "climate" content in our large corpus. Previous studies have exemplified that choosing a set of keywords for document collection is a near-impossible task for humans to perform. As a result, ad hoc keyword selection performed by humans is usually biased and highly unreliable (King et al., 2017). Therefore, we have chosen to implement King et al.'s algorithm for computer-assisted keyword suggestions. The implementation of the algorithm can be described in the following way: a reference set, R, is defined narrowly using selected keywords from our immersion journal, which we discussed in the netnographic part of our paper. We included all tweets including the following words Q_s: {"greennewdeal," "gnd," "climate," "climatecrisis"} in our reference set. A total of 8,525 tweets were included in our reference set. We define the search set, S,  as all other tweets in our corpus. The goal with the classifier is to identify a target set, T, within the search set (T ∈ S), containing documents with new examples of the concept in question. The algorithm ranks keywords from the search set by the likely relations to the concept represented by the reference set. By human input, we create Q_t, which is intended to retrieve T from S (<em>ibid.</em>). Appendix A describes the implementation of the keyword algorithm in detail. We classified 11,655 tweets in total as containing climate content.  
+
+<em> hSBM topic modelling </em>
+
+In order to examine the topics and the coverage of these topics in the climate-related tweets of the Democrats, we use the hSBM for topic detection. This model represents the text corpus as a bipartite network consisting of words and documents. By implementing community-detection methods, we are able to detect the relevant topics in the text corpus by examining the hierarchical clusters of documents. In this analysis, we base our findings on the document groups formed at level one in the hSBM hierarchy. Previous studies have demonstrated that the hSBM model outperforms an LDA model in terms of model selection and topic accuracy (Gerlach et al., 2018). Further description of the hSBM topic model can be found in Appendix B. 
+
 
 ## Discussion of preprocessing and analytical choices <a name="disasds"></a>
 The second paragraph text
@@ -137,3 +145,8 @@ The second paragraph text
 
 ## Appendices <a name="append"></a>
 
+### Appendix A <a name="appa"></a>
+Appendix A
+
+### Appendix B <a name="appb"></a>
+Appendix B
