@@ -21,9 +21,6 @@
     2. [Findings](#findingscontent) 
     3. [Limitations](#limcontent)
 7. [Qualitative & quantitative approach](#qualquant)
-    1. [Qualitative & quantitative interplay](#interplay)
-    2. [Advanced social data science 2 contribution](#asds2cont) 
-    3. [Quality criteria](#quality)
 8. [Discussion & conclusion](#conclusion)
 9. [References](#ref)
 10. [Appendices](#append)
@@ -200,13 +197,17 @@ This is a sub paragraph, formatted in heading 3 style
 ## Qualitative & quantitative approach <a name="qualquant"></a>
 The second paragraph text
 
-### Qualitative & quantitative interplay <a name="interplay"></a>
+<em>Qualitative and quantitative interplay</em>
+
+With the increasing use and potential of big data and analytical methods, it is important to not forget interpretation in research (Couldry, 2014). In order to address this, our paper used a combination of both qualitative and quantitative methods. The qualitative method was our netnographic work and manual network, the quantitative was the automated network, as well as the PCA-analysis. The networks allowed us to see how actors related to each other. The PCA further showed how these actors related to each other, based on their usage of words in regards to environmental sustainability and climate change. The ForceAtlas2 algorithm, which we applied to our automated network, works by finding the most optimal way of cutting a network into smaller components, to find explorative patterns (Munk, 2019). In one way, this is used as a sense-making tool for us that allowed us to explore the relationships produced in the graph by narrowing in on the actors. However, in order to get a better grasp of why the actors are related, our netnographic findings offered a better explanation. As we explored all the findings in our networks and our PCA, we constantly referred back to our immersion journal to make sense of it. Further, if our immersion journal could not explain the relationship, we decided not to analyse it further (Blok et al., 2021). This is the reason for focusing on the 20 politicians we followed in our immersion journal, as we argue that if we cannot refer back to the immersion journal, we cannot fully comprehend the findings. 
+
+As Munk (2019) proposed, qualitative and quantitative methods can be used as a complementary to each other. Our networks and PCA can prompt questions such as, “How come X and Y are related?” or “Why do X and Y both use these terms in regards to environmental sustainability?”. However, in order to answer these questions, further work is needed. Munk (2019) went to the location to conduct interviews to collect deep data to answer these questions. In our case, we used novel digital methods and followed actors for months across platforms in an immersion journal to refer back to the relationship and communication patterns found there. An example was that we found that Joe Manchin in our PCA used very different words in regards to environmental sustainability, and was placed far from the rest of the Democrats. Without our immersion journal, we could not explain this result. 
+
+
+<em>Advanced social data science 2 contribution</em>
 This is a sub paragraph, formatted in heading 3 style
 
-### Advanced social data science 2 contribution <a name="asds2cont"></a>
-This is a sub paragraph, formatted in heading 3 style
-
-### Quality criteria <a name="quality"></a>
+<em>Quality criteria</em>
 This is a sub paragraph, formatted in heading 3 style
 
 ## Discussion & conclusion <a name="conclusion"></a>
@@ -227,17 +228,17 @@ Fuhse, J., Stuhler, O., Riebling, J., & Martin, J. L. (2020). Relating social an
  
 Galvin,R., & Healy, N. (2020). The Green New Deal in the United States: What it is and how to pay for it. <em>Energy Research & Social Science, 67</em>, 1 – 9.
  
-Gerlach, M., Peixoto, T. & Altmann, E. (2018). A network approach to topic models. Science Advances, 4 (7)
+Gerlach, M., Peixoto, T. & Altmann, E. (2018). A network approach to topic models. <em>Science Advances, 4</em> (7)
 
-Gilardi, F., Gessler, T., Kubli, M., & Müller, S. (2021). Social media and political agenda setting. Political Communication, 1 – 22.
+Gilardi, F., Gessler, T., Kubli, M., & Müller, S. (2021). Social media and political agenda setting. <em>Political Communication</em>, 1 – 22.
 
-Gomez-Adorno, H., Rios, G. Duran, J.P., Sidorov, G. (2018). Stylometry-based Approach for Detecting Writing Style Changes in Literary Text. Computacio y Sistemas, 22(1)
+Gomez-Adorno, H., Rios, G. Duran, J.P., Sidorov, G. (2018). Stylometry-based Approach for Detecting Writing Style Changes in Literary Text. <em>Computacio y Sistemas</em>, 22(1)
 
-Guerrero-Solio, F. (2018). Interactive behavior in political discussion on twitter: Politicians, media, and citizen’s patterns of interaction in the 2015 and 2016 electoral campaigns in spain. Social Media + Society, 4(4), 1 - 16. 
+Guerrero-Solio, F. (2018). Interactive behavior in political discussion on twitter: Politicians, media, and citizen’s patterns of interaction in the 2015 and 2016 electoral campaigns in spain. <em>Social Media + Society, 4</em>(4), 1 - 16. 
  
-Halford, S., & Savage, M. (2017). Speaking sociologically with big data: symphonic social science and the future for big data research. Sociology, 51(6), 1132 – 1148.
+Halford, S., & Savage, M. (2017). Speaking sociologically with big data: symphonic social science and the future for big data research. <em>Sociology, 51</em>(6), 1132 – 1148.
 
-King, G., Lam, P. & Roberts, M. (2017). Computer-Assisted Keyword and Document Set Discovery from Unstructured Text. American Journa of Political  Science, 61(3)
+King, G., Lam, P. & Roberts, M. (2017). Computer-Assisted Keyword and Document Set Discovery from Unstructured Text. <em>American Journal of Political Science, 61</em>(3)
 
 King, L. (2021). Green New Deal too ambitious for some Democrats, even those who say Congress must ‘do something’. USA Today. https://eu.usatoday.com/story/news/politics/2019/03/07/green-new-deal-not-all-democrats-board-ambitious-climate-plan/3032887002/
 
@@ -245,13 +246,13 @@ Koziner, R. V. (2019). Netnography: The essential guide to qualitative social me
  
 Jungherr, A. (2016). Twitter use in election campaigns: A systematic literature review, <em>Journal of Information & Technology, 13</em>(1), 72 – 91.
  
-Meftah, S. Semmar, N. & Sadat, F. (2018). A Neural Network Model for Part-Of-Speech Tagging of Social Media Texts, European Language Resources Association, L18-1446 
+Meftah, S. Semmar, N. & Sadat, F. (2018). A Neural Network Model for Part-Of-Speech Tagging of Social Media Texts, <em>European Language Resources Association</em>, L18-1446 
 
-Munk, A. K. (2019). Four styles of quali-quantitative analysis. Making sense of the new nordic food movement on the web. Nordicom Review, 40(1), 159 – 176.
+Munk, A. K. (2019). Four styles of quali-quantitative analysis. Making sense of the new nordic food movement on the web. <em>Nordicom Review, 40</em>(1), 159 – 176.
  
 Vargas, M. (2018). ”Agents of change”: the progressive democratic diffusion across U.S. house and state legislative elections in 2018. University of California Santa Cruz: Dean’s and Chancellor’s Research Award.
  
-Wu, D., & Coleman, R. (2009). Advancing agenda-setting theory: The comparative strength and new contingent conditions of the two levels of agenda-setting effects. Journalism & Mass Communication Quarterly, 86(4), 775 – 789.
+Wu, D., & Coleman, R. (2009). Advancing agenda-setting theory: The comparative strength and new contingent conditions of the two levels of agenda-setting effects. <em>Journalism & Mass Communication Quarterly, 86</em>(4), 775 – 789.
  
 Yuan, E., Feng, M., & Liu, X. (2019). The r/evolution of civic engagement: an exploratory network analysis of the Facebook group occupy Chicago. Information, Communication & Society, 22(2), 267 - 285. 
 
