@@ -18,7 +18,7 @@
     2. [Automated network](#automated)  (exam.nr: 30)
 6. [Content analysis](#content) 
     1. [Methodology](#methodcontent) (exam.nr: 8)
-    2. [Findings](#findingscontent) (exam.nr: 30)
+    2. [Analysis](#findingscontent) (exam.nr: 30)
     3. [Limitations](#limcontent) (exam.nr: 32)
 7. [Qualitative & quantitative approach](#qualquant) 
     1. [Qualitative and quantitative interplay](#qual_quant) (exam.nr: 8)
@@ -174,11 +174,11 @@ Edge size thickness represents how often the actors have referred to each other.
 
 The reason for exploring mentions is that we believe inspecting mentions allows for more of an open conversation about topics compared to retweets, as one can write whatever they want in a mention. Furthermore, a previous study comparing a retweet and mention network on U.S. political communication on Twitter found that mention networks offered a more heterogeneous cluster of users compared to re-weets, where more users interacted with users of opposite political alignment (Conover et al., 2011). Therefore, a mention network made sense as we want to explore the communication between the factions.
 
-<em>Findings</em>
-
- ![IMAGE](https://github.com/natalijaglisovic/SDS-Exam-Group-5/blob/main/images/Figure%205.PNG)
+<em>Analysis</em>
 
 We applied a modularity statistic on our network using Gephi, which found a rather low modularity (0.456 out of 1). A high modularity score indicates that the actors formed distinct network structures (Yuan et al., 2019), which was not apparent in our network. This relationship may be attributed to our actors expressing similar views regarding climate change and sustainability. When analysing the network further, we refer back to our immersion journal in order to compare it to our relational data, so that we not only visualize but can also narrate the network (Decuypere, 2020). One key finding was that the edge size was thicker for progressives as compared to moderates, suggesting stronger ties among progressives. Referring back to our immersion journal, this is inline with what we found regarding how often our actors referred to each other in tweets. The largest node size was for Representatives Raul Grijalva and Donald McEachin, who are both very immersed in the climate debate. Interestingly, these two actors are from different wings, suggesting that members of each faction intermingle on social media to a large extent. In general, the network has a high density among all actors, and there is no distinct clustering between the two wings, which may be because the politicians are all from the same party. 
+
+![IMAGE](https://github.com/natalijaglisovic/SDS-Exam-Group-5/blob/main/images/Figure%205.PNG)
 
 <em>Limitations</em>
 
@@ -193,11 +193,11 @@ For the content analysis of the study, we have decided to conduct a principal co
 
 We decided to plot the local relations, with words most associated with keywords that we added (Fuhse et al., 2020). Our keywords were based on words we commonly found in the climate tweets in our immersion journal. In total we had nine keywords:”greennewdeal,” “gnd,” “environment,” “climate,” “climatecrisi,” “climatechang,” “earthday,” “actonclim,” “climateactionnow”}. We tried plenty of different keywords, and found that these were most representative of the material in our immersion journal from the 20 politicians. We plot the local association of the words related to the keywords, and the local constellation of actors associated with these words. 
 
-### Findings <a name="findingscontent"></a>
-
- ![IMAGE](https://github.com/natalijaglisovic/SDS-Exam-Group-5/blob/main/images/Figure%206.PNG)
+### Analysis <a name="findingscontent"></a>
 
 By looking at the left-hand side of the graph, we can see a cluster of words such as national, world, bold, as well as progressive Democrats Alexandria Ocacio-Cortez, Bernie Sanders, and Jerry Nadler. Inline with the netnographic work, this ties in with the pattern code "national-level environment ambitions" of the progressive wing, referring to national goals. On the most right-hand side we see words such as project, mitigation, subcommittee as well as moderate Democrats Mark Warner, Senator Cantwell, but also progressive Democrat Ted Lieu. This is inline with the pattern codes “economic opportunity in sustainability” and "incremental solutions" that the moderates expressed from our netnographic work. In our immersion journal, Ted Lieu, a progressive Democrat, expressed his climate views more inline with the moderate Democrats, which would explain his position. It should be pointed out that Maxine Waters, a progressive Democrat, has been placed far to the right. This could be explained as she barely tweets about the climate, in total we recorded one tweet of hers that was related to climate. Joe Machin, who we found to be the most conservative Democrat based on his tweets and Facebook posts in the immersion journal, is placed close to carbon and company, and far away from the other politicians. Although somewhat inline with the theme “economic opportunity in sustainability," the word Republican is also positioned here, which could explain his disconnectedness, as he is expressing more similar views to the Republican party. In the middle of the PCA, we have both progressive and moderate Democrats placed, not particularly close to any of the word clusters. As all our actors are from the Democratic party, they might not express clear differences when it comes to environmental sustainability, as party loyalty is often considered important in U.S. politics (Lindstädt & Vander Wielen, 2013). 
+
+ ![IMAGE](https://github.com/natalijaglisovic/SDS-Exam-Group-5/blob/main/images/Figure%206.PNG)
 
 ### Limitations <a name="limcontent"></a>
 One limitation of our study is that our graph accounted for around 19% of variance, which is low in comparison to previous research on socio-symbolic constellations (Fuhse et al., 2020; Block et al., 2021). The lower the variance, the higher the information loss, thus there is a lot more to the actors and their word relations than what we can interpret from the graph. By plotting a large dimensional actor-word matrix into a two dimensional graph, this is hard to avoid. Another shortcoming was focusing on only 20 politicians instead of all the Democrats in our Twitter dataset, so that the PCA would be representative of all the members in the two coalitions. As explained, we wanted to refer back to our immersion journal to qualify our findings, so for future work, one should explore the entire sample of actors gathered in the tweets in the immersion journal as well to have as representative findings as possible. Further, this PCA was conducted only on tweets, for future studies it would be interesting to apply other social media platforms, to be able to compare if the communication differs across platforms. Also, it would be interesting to apply this PCA to political speeches, as Fuhse et al. (2020) did, to see if there are similar patterns in this media.
