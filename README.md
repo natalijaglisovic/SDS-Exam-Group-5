@@ -19,7 +19,7 @@
 6. [Content analysis](#content) 
     1. [Methodology](#methodcontent) (exam.nr: 8)
     2. [Analysis](#findingscontent) (exam.nr: 30)
-    3. [Limitations](#limcontent) (exam.nr: 32)
+    3. [Limitations and further research](#limcontent) (exam.nr: 32)
 7. [Qualitative & quantitative approach](#qualquant) 
     1. [Qualitative and quantitative interplay](#qual_quant) (exam.nr: 8)
     2. [ASDS 2 contribution](#asds_cont) (exam.nr: 30)
@@ -181,7 +181,7 @@ We applied a modularity statistic on our network using Gephi, which found a rath
 ![IMAGE](https://github.com/natalijaglisovic/SDS-Exam-Group-5/blob/main/images/Figure%206.png)
 **Figure 5:** Twitter mention network of the progressives and moderates
 
-<em>Limitations</em>
+<em>Limitations and further research </em>
 
 One shortcoming was that we only followed 20 of the politicians in the immersion journal and could not refer back to the journal on all the politicians that were a part of the automated network. Still, we could use the immersion journal to assist us in understanding general trends in how the wings discuss climate change and sustainability. Another shortcoming, and something to be explored in future research, is the use of one network over a long period of time. By making multiple networks, we can see how the connections evolve over time (Decuypere, 2020). This could be especially interesting as one could follow the Green New Deal debate, until the time the bill is passed or not, and see how the connections change with time. A single-platform analysis has the limitation of not being able to compare the findings in one medium to another (Venturini et al., 2018). In the manual network, we did cross-platform analysis, and this would also be interesting to do in the automated network, to see if there are similar trends on a larger scale.
 
@@ -200,7 +200,7 @@ By looking at the left-hand side of the graph, we can see a cluster of words suc
 
  ![IMAGE](https://github.com/natalijaglisovic/SDS-Exam-Group-5/blob/main/images/Figure%206.PNG)
 
-### Limitations <a name="limcontent"></a>
+### Limitations and further research  <a name="limcontent"></a>
 One limitation of our study is that our graph accounted for around 19% of variance, which is low in comparison to previous research on socio-symbolic constellations (Fuhse et al., 2020; Block et al., 2021). The lower the variance, the higher the information loss, thus there is a lot more to the actors and their word relations than what we can interpret from the graph. By plotting a large dimensional actor-word matrix into a two dimensional graph, this is hard to avoid. Another shortcoming was focusing on only 20 politicians instead of all the Democrats in our Twitter dataset, so that the PCA would be representative of all the members in the two coalitions. As explained, we wanted to refer back to our immersion journal to qualify our findings, so for future work, one should explore the entire sample of actors gathered in the tweets in the immersion journal as well to have as representative findings as possible. Further, this PCA was conducted only on tweets, for future studies it would be interesting to apply other social media platforms, to be able to compare if the communication differs across platforms. Also, it would be interesting to apply this PCA to political speeches, as Fuhse et al. (2020) did, to see if there are similar patterns in this media.
 
 ## Qualitative & quantitative approach <a name="qualquant"></a>
