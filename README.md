@@ -161,6 +161,7 @@ Decuypere (2020) outlines a series of dimensions researchers may use when analys
 ![IMAGE](https://github.com/natalijaglisovic/SDS-Exam-Group-5/blob/main/images/figure%204.jpg)
 
 <em>Limitations and further research</em>
+
 	Since we based the manual network analysis on our immersion journal, we examined a small number of politicians and only a fraction of their tweets related to climate change. For our netnography, this small sample did not prove much of an issue as it allowed us to uncover deep data; however, Decuypere (2020) highlights the importance of "thickness" in network research. Following fewer actors would have enabled us to more closely follow their posts, which may have assisted in making more connections between the politicians and other actors, including non-humans, an actor type our study mostly lacks. Future research could follow fewer actors to obtain this thickness and complement the observational social media data with other media—such as press releases and news articles—to gauge how different media types influence relations, a feat Lai et al. (2019) note as important in studying networks.
 
 ### Automated network <a name="automated"></a>
